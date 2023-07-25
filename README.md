@@ -41,3 +41,7 @@ inside CloudList class
   permission_classes = (IsOwnerOrReadOnly)
 inside CloudDetail class
   permission_classes = (IsOwnerOrReadOnly)
+
+docker stuff
+docker-compose.yml
+copy pasta?
