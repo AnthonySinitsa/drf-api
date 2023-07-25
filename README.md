@@ -45,3 +45,20 @@ inside CloudDetail class
 docker stuff
 docker-compose.yml
 copy pasta?
+
+in settings.py
+DATABASES = {
+  copy pasta
+}
+
+pip install psycopg2-binary
+pipf
+dcu --build
+should error that needs to migrate
+pmp migrate   #but this won't work because this migrates on PC not docker
+docker compose run web pmp migrate
+dcu
+docker compose down   # this properly shuts down container but it'll remove data
+docker compose run web pmp createsuperuser
+dcu -d    # this runs in detached mode
+docker compose logs
