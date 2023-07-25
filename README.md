@@ -62,3 +62,7 @@ docker compose down   # this properly shuts down container but it'll remove data
 docker compose run web pmp createsuperuser
 dcu -d    # this runs in detached mode
 docker compose logs
+docker compose run web pmp migrate
+docker compose run web pmp createsuperuser
+docker compose stop
+docker compose start
