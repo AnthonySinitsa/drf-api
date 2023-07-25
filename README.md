@@ -45,3 +45,4 @@ inside CloudDetail class
 docker stuff
 docker-compose.yml
 copy pasta?
+asdf
